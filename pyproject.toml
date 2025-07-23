@@ -1,0 +1,12 @@
+[project]
+name = "slack-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.12.14",
+    "fastmcp>=2.10.6",
+    "python-dotenv>=1.1.1",
+    "slack-sdk[async]>=3.36.0",
+]
