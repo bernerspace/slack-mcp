@@ -14,7 +14,7 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
 try:
-    from slack_bot_mcp.services.slack_bot_api import SlackBotAPIService
+    from mcp.services.slack_bot_api import SlackBotAPIService
 except ImportError as e:
     print(f"❌ Import failed: {e}")
     sys.exit(1)

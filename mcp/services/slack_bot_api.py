@@ -13,18 +13,8 @@ import io
 import os
 from urllib.parse import urlparse
 from pathlib import Path
-
+from mcp.models.slack_types import SlackResponse
 logger = logging.getLogger(__name__)
-
-
-@dataclass
-class SlackResponse:
-    """Standard response wrapper for Slack API calls"""
-    ok: bool
-    data: Dict[str, Any]
-    error: Optional[str] = None
-    warning: Optional[str] = None
-
 
 class SlackBotAPIService:
     """

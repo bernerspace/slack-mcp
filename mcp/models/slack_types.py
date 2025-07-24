@@ -2,6 +2,7 @@ from typing import Dict, Optional, Any
 from dataclasses import dataclass
 
 
+
 @dataclass
 class SlackResponse:
     """Standard response wrapper for Slack API calls"""
