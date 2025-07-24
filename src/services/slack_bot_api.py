@@ -13,7 +13,7 @@ import io
 import os
 from urllib.parse import urlparse
 from pathlib import Path
-from mcp.models.slack_types import SlackResponse
+from src.models.slack_types import SlackResponse
 logger = logging.getLogger(__name__)
 
 class SlackBotAPIService:

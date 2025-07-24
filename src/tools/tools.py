@@ -1,4 +1,3 @@
-# slack_bot_mcp/tools/slack_bot_tools.py
 """
 Slack MCP Tools
 FastMCP tools for Slack bot operations using SlackBotAPIService
@@ -9,7 +8,7 @@ from datetime import datetime
 from pydantic import Field
 from typing_extensions import Annotated
 
-from mcp.services.slack_bot_api import SlackBotAPIService
+from src.services.slack_bot_api import SlackBotAPIService
 
 
 class SlackTools:

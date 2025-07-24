@@ -6,10 +6,7 @@ from typing import List, Optional, Dict, Any, Literal, Union
 from datetime import datetime
 from pydantic import Field
 from typing_extensions import Annotated
-from mcp.tools import SlackTools
-
-
-
+from src.tools.tools import SlackTools
 
 # Create MCP instance in the server
 mcp = FastMCP("Slack Bot MCP Server")
